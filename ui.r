@@ -1,5 +1,5 @@
 shinyUI(pageWithSidebar(
-  headerPanel('Iris k-means clustering'),
+  headerPanel('Iris k-means clustering testing Shiny program by Kevin Shang'),
   sidebarPanel(
     selectInput('xcol', 'X Variable', names(iris)),
     selectInput('ycol', 'Y Variable', names(iris),
